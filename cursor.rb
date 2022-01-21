@@ -30,6 +30,13 @@ MOVES = {
   down: [1, 0]
 }.freeze
 
+class Evid_error_permission_cursor
+  def _message_
+    "this key is not permitted to put it, pliz use the other key if , not something"
+    
+  end
+end
+
 class Cursor
 
   attr_reader :cursor_pos, :board, :selected
