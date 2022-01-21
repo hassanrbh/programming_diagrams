@@ -33,7 +33,7 @@ MOVES = {
 class Evid_error_permission_cursor
   def _message_
     "this key is not permitted to put it, pliz use the other key if , not something"
-    
+
   end
 end
 
@@ -46,6 +46,7 @@ class Cursor
     @board = board
     @selected = false
   end
+  # DEBUG: the get input is not working properly, see what you can do
 
   def toggle_selected
     @selected = !@selected
